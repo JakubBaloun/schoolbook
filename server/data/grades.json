@@ -95,8 +95,28 @@
     "dateTs": "2022-06-28T10:00:00.000Z",
     "grade": 3,
     "description": "Zkoušení",
-    "weight": 0.5,
+    "weight": 0.544444,
     "id": "VTF65UBE6TT1SCIO",
     "classroomId": "1e838cb06cfeb01c"
+  },
+  {
+    "subjectId": "e3c7b689a47e76b0",
+    "studentId": "e0e41d8e15869ebb",
+    "dateTs": "2022-06-28T10:00:00.000Z",
+    "grade": 4,
+    "description": "Zkoušení",
+    "weight": 2,
+    "classroomId": "1e838cb06cfeb01c",
+    "id": "326a83695f8fc828"
+  },
+  {
+    "subjectId": "e3c7b689a47e76b0",
+    "studentId": "e0e41d8e15869ebb",
+    "grade": 4,
+    "description": "Zkoušení",
+    "weight": 2233322,
+    "classroomId": "1e838cb06cfeb01c",
+    "id": "af701946e63efa6f",
+    "date": "2025-03-26T15:20:20.597Z"
   }
 ]
