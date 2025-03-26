@@ -6,6 +6,6 @@ Třída –⁠ primárně sdružuje žáky školy.
 Předmět –⁠ základní charakteristika vyučovaných předmětů.
 Známka –⁠ hlavní entita aplikace, která sdružuje známky žáka z jednotlivých předmětů.
 
-Backend je realizován v Node.js pomocí frameworku Express.js.
+Backend je realizován v Node.js pomocí frameworku Express.js. Validace je prováděna pomocí knihovny Ajv.
 
 Jako databáze je použitý souborový systém, který je ale díky DAO vrstvě snadno rozšiřitelný na skotečnou databázi.
