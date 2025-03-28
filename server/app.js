@@ -17,7 +17,7 @@ app.use("/student", studentRouter);
 app.use("/subject", subjectRouter);
 
 app.get("/", (req, res) => {
-  res.status(200).send("hello?");
+  res.status(200).send("Welcome to my app.");
 });
 
 const port = process.env.PORT || 8080;
