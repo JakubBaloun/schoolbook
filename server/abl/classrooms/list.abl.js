@@ -1,4 +1,4 @@
-import ClassroomDao from "../../dao/classroom.dao.js";
+import ClassroomDao from "../../dao-mongo/classroom.dao.js";
 
 const classroomDao = new ClassroomDao();
 

@@ -1,8 +1,8 @@
-import SubjectDao from "../../dao/subject.dao.js";
+import SubjectDao from "../../dao-mongo/subject.dao.js";
 import {
   bodySchema,
   paramsSchema,
-} from "../../schemas/student/update.schema.js";
+} from "../../schemas/subject/update.schema.js";
 import { ajv } from "../../utils/ajv.utils.js";
 
 const subjectDao = new SubjectDao();

@@ -1,4 +1,4 @@
-import GradeDao from "../../dao/grade.dao.js";
+import GradeDao from "../../dao-mongo/grade.dao.js";
 import { ajv } from "../../utils/ajv.utils.js";
 import schema from "../../schemas/grade/create.schema.js";
 

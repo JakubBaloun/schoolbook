@@ -1,4 +1,4 @@
-import GradeDao from "../../dao/grade.dao.js";
+import GradeDao from "../../dao-mongo/grade.dao.js";
 import { ajv } from "../../utils/ajv.utils.js";
 import schema from "../../schemas/grade/delete.schema.js";
 
@@ -8,7 +8,7 @@ const deleteGrade = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const valid = ajv.validate(schema, req.body);
+    const valid = ajv.validate(schema, req.params);
 
     if (!valid) {
       throw {
