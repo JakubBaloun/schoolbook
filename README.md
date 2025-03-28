@@ -12,4 +12,4 @@ Známka –⁠ hlavní entita aplikace, která sdružuje známky žáka z jednot
 
 Backend je realizován v Node.js pomocí frameworku Express.js. Validace je prováděna pomocí knihovny Ajv.
 
-Jako databáze je použitý souborový systém, který je ale díky DAO vrstvě snadno rozšiřitelný na skotečnou databázi.
+Jako databáze byl původně použitý souborový systém, který byl ale díky DAO vrstvě snadno přesunut na MongoDB.
