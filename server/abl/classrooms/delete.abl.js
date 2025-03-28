@@ -1,4 +1,4 @@
-import ClassroomDao from "../../dao/classroom.dao.js";
+import ClassroomDao from "../../dao-mongo/classroom.dao.js";
 import { ajv } from "../../utils/ajv.utils.js";
 import schema from "../../schemas/classroom/delete.schema.js";
 

@@ -1,4 +1,4 @@
-import GradeDao from "../../dao/grade.dao.js";
+import GradeDao from "../../dao-mongo/grade.dao.js";
 
 const gradeDao = new GradeDao();
 

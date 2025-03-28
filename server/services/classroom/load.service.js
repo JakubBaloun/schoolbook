@@ -1,4 +1,4 @@
-import ClassroomDao from "../../dao/classroom.dao.js";
+import ClassroomDao from "../../dao-mongo/classroom.dao.js";
 import GradeDao from "../../dao/grade.dao.js";
 import StudentDao from "../../dao/student.dao.js";
 import SubjectDao from "../../dao/subject.dao.js";

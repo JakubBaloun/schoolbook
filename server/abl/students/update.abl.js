@@ -1,4 +1,4 @@
-import StudentDao from "../../dao/student.dao.js";
+import StudentDao from "../../dao-mongo/student.dao.js";
 import { ajv } from "../../utils/ajv.utils.js";
 import {
   bodySchema,
@@ -9,7 +9,7 @@ const studentDao = new StudentDao();
 
 const updateStudent = async (req, res) => {
   try {
-    const { firstName, surname, nationalId, classroomId } = req.body;
+    const { firstname, surname, nationalId, classroomId } = req.body;
     const { id } = req.params;
 
     const validBody = ajv.validate(bodySchema, req.body);
@@ -29,7 +29,7 @@ const updateStudent = async (req, res) => {
       };
     }
 
-    const student = { firstName, surname, nationalId, classroomId, id };
+    const student = { firstname, surname, nationalId, classroomId, id };
 
     const updatedStudent = await studentDao.updateStudent(student);
     res.json(updatedStudent);

@@ -1,4 +1,4 @@
-import StudentDao from "../../dao/student.dao.js";
+import StudentDao from "../../dao-mongo/student.dao.js";
 import { ajv } from "../../utils/ajv.utils.js";
 import schema from "../../schemas/student/create.schema.js";
 
@@ -6,7 +6,7 @@ const studentDao = new StudentDao();
 
 const createStudent = async (req, res) => {
   try {
-    const { firstName, surname, nationalId, classroomId } = req.body;
+    const { firstname, surname, nationalId, classroomId } = req.body;
 
     const valid = ajv.validate(schema, req.body);
 
@@ -18,7 +18,7 @@ const createStudent = async (req, res) => {
     }
 
     const newStudent = {
-      firstName,
+      firstname,
       surname,
       nationalId,
       classroomId,
