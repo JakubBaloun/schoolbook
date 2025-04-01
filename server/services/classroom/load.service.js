@@ -1,7 +1,7 @@
 import ClassroomDao from "../../dao-mongo/classroom.dao.js";
-import GradeDao from "../../dao/grade.dao.js";
-import StudentDao from "../../dao/student.dao.js";
-import SubjectDao from "../../dao/subject.dao.js";
+import GradeDao from "../../dao-mongo/grade.dao.js";
+import StudentDao from "../../dao-mongo/student.dao.js";
+import SubjectDao from "../../dao-mongo/subject.dao.js";
 
 const classroomDao = new ClassroomDao();
 const studentDao = new StudentDao();

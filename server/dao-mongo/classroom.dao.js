@@ -6,7 +6,7 @@ export default class ClassroomDao {
   }
 
   async getClassroom(id) {
-    const classroom = await Classroom.findById(id);
+    const classroom = await Classroom.findById(id).lean();
     if (!classroom) {
       throw {
         status: 404,
