@@ -5,6 +5,7 @@ import studentRouter from "./controller/student.controller.js";
 import subjectRouter from "./controller/subject.controller.js";
 import connectDB from "./db/db.js";
 import morgan from "morgan";
+import cors from "cors";
 
 const app = express();
 
